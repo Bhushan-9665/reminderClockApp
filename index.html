@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder Clock App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+        <div class="Box Box-1">
+            <!-- <img src="./clock_logo.png" alt=""> -->
+        </div>
+
+    <div class="Parent-Box">
+        <div class="Box-PR">
+            <div class="Box-R">
+                <div class="Display-Time"> 
+                        <p>TIME</p>    
+                    <div ><img src="./timeline.png" alt="" class="img-z"><span class="clock-adj"></span><br> <span class="clock-name">Hours</span></div>
+                    <div ><img src="./timeline.png" alt="" class="img-z"><span class="clock-adj"></span><br><span class="clock-name">Mint</span></div>
+                    <div ><img src="./timeline.png" alt="" class="img-z"><span class="clock-adj"></span> <br> <span class="clock-name">Sec's</span></div>
+                    <div ><img src="./AM_svg.png" alt="" class="img-z"><span class="clock-adj"></span></div>
+                </div>
+            </div>
+        
+            <div class="Box-R-1"></div>
+            <div class="Box-R-2"></div>
+            <div class="Box-R text-1"><p>GRAB SOME HEALTHY BREAKFAST!!!</p></div>
+        </div>
+
+        <div class="Box Box-2">
+            <div class="contain-1">
+                <label for="logo" id="wake_up"><img src="./wake_up.png" alt="clock_logo"></label>
+                <label for="logo" id="wake_up"><img src="./lunch_time.png" alt="clock_logo"></label>
+                <label for="logo" id="wake_up"><img src="./nap_time.png" alt="clock_logo"></label>
+                <label for="logo" id="wake_up"><img src="./nap_time.png" alt="clock_logo"></label>
+            </div>
+
+            <div class="contain-2">
+                <p>Set wake up time</p>
+                <p>Set lunch time</p>
+                <p>Set nap time</p>
+                <p>Set night time</p>
+            </div>
+
+            <div class="contain-3 ">
+                <form action="#">
+                    <select name="wake up time" class="Morning" id="select-1">
+                        <option value="4">4 AM - 5 AM</option>
+                        <option value="5">5 AM - 6 AM</option>
+                        <option value="6">6 AM - 7 AM</option>
+                        <option value="7">7 AM - 8 AM</option>
+                        <option value="8">8 AM - 9 AM</option>
+                        <option value="9">9 AM - 10 AM</option>
+                        <option value="10">10 AM - 11 AM</option>
+                        <option value="11">11 AM - 12 AM</option>
+                    </select>
+                </form>
+
+                <form action="#">
+                    <select name="wake up time" class="Afternoon" id="select-1">
+                        <option value="12">12 PM - 1 PM</option>
+                        <option value="13">1 PM - 2 PM</option>
+                        <option value="14">2 PM - 3 PM</option>
+                        <option value="15">3 PM - 4 PM</option>
+                        
+                    </select>
+                </form>
+
+                <form action="#">
+                    <select name="wake up time" class="Evening" id="select-1">
+                        <option value="16">4 PM - 5 PM</option>
+                        <option value="17">5 PM - 6 PM</option>
+                        <option value="18">6 PM - 7 PM</option>
+                        <option value="19">7 PM - 8 PM</option>
+                        <option value="20">8 PM - 9 PM</option>
+                    </select>
+                </form>
+
+                <form action="#" >
+                    <select name="wake up time" class="Night" id="select-1">
+                        <option value="21">9 PM - 10 PM</option>
+                        <option value="22">10 PM - 11 PM</option>
+                        <option value="23">11 AM - 12 AM</option>
+                        <option value="0">12 AM - 1 AM</option>
+                        <option value="1">1 AM - 2 AM</option>
+                        <option value="2">2 AM - 3 AM</option>
+                        <option value="3">3 AM - 4 AM</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+
+        <div class="img-1" >
+            <img src="./asset/Group51832x.png" alt="" id="imgs">
+        </div>
+
+
+        <div class="Box Box-3"  >
+            <p id="msg">GOOD MORNING!! WAKE UP !!</p>
+        </div>
+
+<!-- alarm Button -->
+        <div class="Box Box-4" id="alarmBox" onclick="callFunction()">
+            <span class="default-text">Set Alarm</span> 
+            <span class="hover-text">Party Time</span>          
+        </div>
+
+
+        <div class="Box Box-5" id="updation">
+            <p id="updation1">Wake Up Time : 10AM - 11AM</p>
+            <p id="updation2">Lunch Time : 12PM - 12PM</p>
+            <p id="updation3">Nap Time : 4PM - 5PM</p>
+            <p id="updation4">Night Time : 8PM - 9AM</p>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

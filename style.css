@@ -1,0 +1,528 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #3D087B;
+    background-repeat: no-repeat;
+
+}
+
+.Parent-Box{
+    width: 512px;
+    height: 0px;
+}
+
+.Box{
+    display: flex;
+    border-radius: 10px;
+    margin-left: 124px;
+    opacity: 1;
+
+}
+
+/* clock logo set-up */
+.Box-1{
+    width: 219px;
+    height: 83px;
+    margin-top: 34px;
+    background-image: url(./clock_logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+/* Alarm set up box. */
+.Box-2{
+    width: 790px;
+    height: 363px;
+    position: absolute;
+    top: 130px;
+    
+    background-color: #FFFFFF;
+    border: 1px solid #EDEDED;
+    
+}
+.contain-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.contain-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+    color: #3D087B;
+    font-size: 24px;
+    
+}
+
+.contain-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+    width: 250px;
+    
+}
+
+#select-1{
+    width: 380px;
+    height: 45px;
+}
+
+.img-1{
+    
+    position: absolute;
+    right: 180px;
+    top: 410px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1 img{
+    width: 769px;
+    height: 387px;
+}
+
+
+/* Good morning!! wake up !! */
+.Box-3{
+    width: 790px;
+    height: 124px;
+    background-color: #9140B5;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    margin-top: -40px;
+    /*text*/
+    color: #FFFFFF; 
+    text-align: left;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 34px;
+    font-family: 'Baumans', cursive;
+    opacity: 1;
+    font-weight: bold;
+    
+}
+
+/* Set Alarm */
+
+.Box-4{
+    width: 395px;
+    height:70px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-image : linear-gradient( to right, #6E54EC, #CB52F8, #F1A7C5);
+    color: whitesmoke;
+}
+
+.Box-4:hover .hover-text {
+    display: inline;
+}
+
+.Box-4:hover .default-text {
+    display: none;
+}
+
+.Box-4 .hover-text {
+    display: none;
+}
+
+.Box-5{
+    width: 365px;
+    height: 117px;
+    flex-direction: column;
+    position: absolute;
+    top: 683px;
+    left: 423px;
+    bottom: 50px;
+    background-color: #9140B5;
+    padding: 20px;
+    opacity: 1;
+}
+.Box-5 p {
+    color: #F25CFE;
+    font-size: 18px;
+    opacity: 1;
+}
+
+.Box-PR{
+    display: flex;
+    
+    flex-direction: column;
+    position: relative;
+    left: 960px;
+    margin-top: -60px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.Box-R{
+    width: 766px;
+    height: 130px;
+    background-color: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    z-index: 3;
+    
+}
+
+.Box-R-1{
+    display: flex;
+    margin-left: 85px;
+    position: relative;
+    bottom: 110px;
+    width: 600px;
+    height: 130px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    opacity: 0.71;
+    z-index: 2;
+}
+
+.Box-R-2{
+    display: flex;
+    margin-left: 115px;
+    position: relative;
+    bottom: 220px;
+    width: 550px;
+    height: 130px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    opacity: 0.22;
+    z-index: 1;
+}
+.Display-Time p {
+    color: #3D087B;
+    font-size: 24px;
+
+}
+.clock-adj{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    position: absolute;
+    top: 23px;
+    padding: 0px;
+    margin-left: 22px;
+    font-weight: bold;
+    color: #8A11BF;
+}
+
+.clock-name{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 77px;
+    font-size: 26px;
+    margin-left: 6px;
+    font-weight: bold;
+    color: #8A11BF;
+}
+
+
+.Display-Time{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+ 
+}
+
+.text-1 {
+    display: flex;
+    color: #8E53F0; 
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 34px;
+    font-family: 'Baumans', cursive;
+    opacity: 1;
+    font-weight: bold;
+    /* position */
+    position: relative;
+    bottom: 200px;
+}
+
+
+        /* Iphone XR */
+@media screen and (max-width: 667px){
+    .Box{
+        width: 481px;
+    margin-left: 24px;
+    }
+
+    .Box-1{
+        width: 240px;
+        height: 90px;
+        
+    }
+
+    .Box-2{
+        position: absolute;
+        top: 400px;
+    }
+    .Box-R{
+        width: 480px;
+        height: 85px;
+        margin-left: -3px;
+        bottom: 86px;
+    }
+
+    .Box-R-1{
+        width: 417px;
+        height: 102px;
+        margin-left: 27px;
+        margin-top: 25px;
+    }
+
+    .Box-R-2{
+        width: 357px;
+        height: 108px;
+        margin-left: 52px;
+        margin-top: 15px;
+    }
+
+    .contain-1{
+        margin-left: 12px;
+    }
+
+    .contain-2{
+        margin-left: 12px;
+    }
+
+    .contain-3{
+        margin-left: 12px;
+    }
+
+    #select-1{
+        width: 212px;
+        height: 40px;
+    }
+
+    .Box-PR{
+        position: relative;
+        left: 24px;
+        margin-top: 15px;
+    }
+
+    .img-z{
+        width: 50px;
+        height: 50px;
+    }
+
+    .Display-Time p {
+        color: #3D087B;
+        font-size: 12px;
+    
+    }
+    .clock-adj {
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        position: absolute;
+        top: 24px;
+        padding: 0px;
+        margin-left: 11px;
+        color: #8A11BF;
+    }
+    
+    .clock-name {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 53px;
+        font-size: 16px;
+        margin-left: 7px;
+        color: #8A11BF;
+    }
+    
+    
+    .Display-Time{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+     
+    }
+    
+    .text-1 {
+        display: flex;
+        color: #8E53F0; 
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 12px;
+        font-family: 'Baumans', cursive;
+        opacity: 1;
+        position: relative;
+        bottom: 200px;
+    }
+
+    #imgs{
+        width: 473px;
+        height: 320px;
+        position: absolute;
+        right: -270px;
+        top: 375px;
+    }
+
+    /* Good morning!! wake up !! */
+    .Box-3{
+        width: 482px;
+        height: 100px;
+        background-color: #9140B5;
+        border: 1px solid #EDEDED;
+        border-radius: 10px;
+        position: absolute;
+        top: 1157px;
+        color: #FFFFFF;
+        text-align: left;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 18px;
+        font-family: 'Baumans', cursive;
+        opacity: 1;
+        font-weight: bold;
+    }
+
+    /* Set Alarm */
+
+    .Box-4{
+        width: 240px;
+        height: 78px;
+        position: absolute;
+        top: 1212px;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient( to right, #6E54EC, #CB52F8, #F1A7C5);
+        color: whitesmoke;
+        
+    }
+
+    .Box-5{
+        width: 223px;
+        height: 117px;
+        flex-direction: column;
+        position: absolute;
+        top: 1236px;
+        margin-bottom: 20px;
+        left: 255px;
+        bottom: 50px;
+        background-color: #9140B5;
+        padding: 10px;
+        opacity: 1;
+    }
+    .Box-5 p {
+        color: #F25CFE;
+        font-size: 18px;
+        opacity: 1;
+    }
+}
+
+
+        /* Iphone SE */
+@media screen and (max-width: 375px){
+    #imgs { width: 473px;
+    height: 320px;
+    position: absolute;
+    right: -308px;
+    top: 375px;
+    }
+
+    .Box-5{
+        width: 223px;
+        height: 140px;
+        flex-direction: column;
+        position: absolute;
+        top: 1236px;
+        margin-bottom: 20px;
+        left: 255px;
+        bottom: 50px;
+        background-color: #9140B5;
+        padding: 10px;
+        opacity: 1;
+    }
+
+    .clock-adj {
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        position: absolute;
+        top: 24px;
+        padding: 0px;
+        margin-left: 11px;
+        color: #8A11BF;
+    }
+    
+    .clock-name {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 53px;
+        font-size: 16px;
+        margin-left: 7px;
+        color: #8A11BF;
+    }
+
+    
+}
+
+
+        /* iphone 12pro */
+@media screen and (max-width: 390px){
+    #imgs { width: 473px;
+    height: 320px;
+    position: absolute;
+    right: -293px;
+    top: 375px;
+    }
+
+    .Box-5{
+        width: 223px;
+        height: 140px;
+        flex-direction: column;
+        position: absolute;
+        top: 1236px;
+        margin-bottom: 20px;
+        left: 255px;
+        bottom: 50px;
+        background-color: #9140B5;
+        padding: 10px;
+        opacity: 1;
+    }
+
+    .clock-adj {
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        position: absolute;
+        top: 24px;
+        padding: 0px;
+        margin-left: 11px;
+        color: #8A11BF;
+    }
+    
+    .clock-name {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 53px;
+        font-size: 16px;
+        margin-left: 7px;
+        color: #8A11BF;
+    }
+
+}
