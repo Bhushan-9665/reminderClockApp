@@ -1,221 +1,130 @@
 *{
-    margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
+    margin: 0%;
 }
 
 body{
-    height: 100vh;
     background-color: #3D087B;
-    background-repeat: no-repeat;
-
-}
-
-.Parent-Box{
-    width: 512px;
-    height: 0px;
-}
-
-.Box{
-    display: flex;
-    border-radius: 10px;
-    margin-left: 124px;
-    opacity: 1;
-
-}
-
-/* clock logo set-up */
-.Box-1{
-    width: 219px;
-    height: 83px;
-    margin-top: 34px;
-    background-image: url(./clock_logo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    
-}
-
-/* Alarm set up box. */
-.Box-2{
-    width: 790px;
-    height: 363px;
-    position: absolute;
-    top: 130px;
-    
-    background-color: #FFFFFF;
-    border: 1px solid #EDEDED;
-    
-}
-.contain-1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 50px;
-}
-
-.contain-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 50px;
-    color: #3D087B;
-    font-size: 24px;
-    
-}
-
-.contain-3{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 50px;
-    width: 250px;
-    
-}
-
-#select-1{
-    width: 380px;
-    height: 45px;
-}
-
-.img-1{
-    
-    position: absolute;
-    right: 180px;
-    top: 410px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.img-1 img{
-    width: 769px;
-    height: 387px;
 }
 
 
-/* Good morning!! wake up !! */
-.Box-3{
-    width: 790px;
-    height: 124px;
-    background-color: #9140B5;
-    border: 1px solid #EDEDED;
-    border-radius: 10px;
-    margin-top: -40px;
-    /*text*/
-    color: #FFFFFF; 
-    text-align: left;
-    align-items: center;
-    padding-left: 20px;
-    font-size: 34px;
-    font-family: 'Baumans', cursive;
-    opacity: 1;
-    font-weight: bold;
-    
-}
 
-/* Set Alarm */
-
-.Box-4{
-    width: 395px;
-    height:70px;
-    margin-top: 25px;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    background-image : linear-gradient( to right, #6E54EC, #CB52F8, #F1A7C5);
-    color: whitesmoke;
-}
-
-.Box-4:hover .hover-text {
-    display: inline;
-}
-
-.Box-4:hover .default-text {
-    display: none;
-}
-
-.Box-4 .hover-text {
-    display: none;
-}
-
-.Box-5{
-    width: 365px;
-    height: 117px;
-    flex-direction: column;
-    position: absolute;
-    top: 683px;
-    left: 423px;
-    bottom: 50px;
-    background-color: #9140B5;
+.span-1{
+    margin-left: 8%;
     padding: 20px;
-    opacity: 1;
-}
-.Box-5 p {
-    color: #F25CFE;
-    font-size: 18px;
-    opacity: 1;
 }
 
-.Box-PR{
+.span-1 img {
+    width: 250px;
+}
+
+
+
+
+.span-2{
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vh;
     
+}
+
+.box-1{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    background-color: aliceblue;
+    gap: 50px;
+    width: 40%;
+    height: 500px;
+}
+
+
+
+.setBox1{
+    display: flex;
     flex-direction: column;
-    position: relative;
-    left: 960px;
-    margin-top: -60px;
-    border-radius: 10px;
-    opacity: 1;
+    justify-content: space-around;
+    margin-left:40px
 }
 
-.Box-R{
-    width: 766px;
-    height: 130px;
-    background-color: #FFFFFF;
-    border: 1px solid #EDEDED;
-    border-radius: 10px;
-    opacity: 1;
-    z-index: 3;
+.setBox1 img {
+    width: 5vh;
+    height: 5vh;
+}
+
+
+
+.setBox2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.setBox2 p {
+    font-size: 24px;
+}
+
+.setBox3{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
     
+    width: 48%;
 }
 
-.Box-R-1{
-    display: flex;
-    margin-left: 85px;
-    position: relative;
-    bottom: 110px;
-    width: 600px;
-    height: 130px;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    opacity: 0.71;
-    z-index: 2;
+.setBox3 select {
+    position: absolute;
+    width: 90%;
+    height: 4vh;
 }
 
-.Box-R-2{
-    display: flex;
-    margin-left: 115px;
+
+
+
+
+/* span -2  */
+
+
+
+.box-2{
+    width: 40%;
+    height: 350px;
     position: relative;
-    bottom: 220px;
-    width: 550px;
-    height: 130px;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    opacity: 0.22;
-    z-index: 1;
+    bottom: 90px;
 }
-.Display-Time p {
+
+.ckl1 {
+    width: 95%;
+    height: 12vh;
+    background-color: aliceblue;
+    position: absolute;
+    border-radius: 10px;
+    opacity: 1;
+    z-index: 5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.ckl1 p {
     color: #3D087B;
     font-size: 24px;
-
 }
+
 .clock-adj{
     display: flex;
     justify-content: center;
     font-size: 34px;
     position: absolute;
-    top: 23px;
+    top: 38px;
     padding: 0px;
-    margin-left: 22px;
+    margin-left: 16px;
     font-weight: bold;
     color: #8A11BF;
 }
@@ -224,20 +133,47 @@ body{
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 77px;
+    top: 95px;
     font-size: 26px;
-    margin-left: 6px;
+    margin-left: 10px;
     font-weight: bold;
     color: #8A11BF;
 }
 
+.ckl2 {
+    width: 80%;
+    height: 12vh;
+    background-color: aliceblue;
+    position: absolute;
+    left: 60px;
+    top: 57px;
+    border-radius: 10px;
+    opacity: 0.71;
+    /* width: 379vh */
+    z-index: 4;
+}
 
-.Display-Time{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px;
- 
+.ckl3 {
+    width: 70%;
+    height: 12vh;
+    background-color: aliceblue;
+    position: absolute;
+    left: 90px;
+    top: 73px;
+    border-radius: 10px;
+    opacity: 0.22;
+    z-index: 3;
+}
+
+.ckl4 {
+    width: 98%;
+    height: 12vh;
+    background-color: aliceblue;
+    position: absolute;
+    /* left: 60px; */
+    top: 220px;
+    border-radius: 10px;
+    opacity: 1;
 }
 
 .text-1 {
@@ -257,104 +193,300 @@ body{
 }
 
 
-        /* Iphone XR */
-@media screen and (max-width: 667px){
-    .Box{
-        width: 481px;
-    margin-left: 24px;
-    }
+/* span - 3 */
 
-    .Box-1{
-        width: 240px;
-        height: 90px;
+
+.span-3{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.box-a{
+    width: 40%;
+    height: 30vh;
+    position: relative;
+    top: 15px;
+}
+
+
+/* text updation acording to set alarm */
+
+.text1{
+    display: flex;
+    width: 99%;
+    height: 12vh;
+    background-color: #9140B5;
+    border-radius: 10px;
+    border: 1px solid #EDEDED;
+        
+}
+
+#msg {
+    display: flex;
+    justify-content: center;
+        color: white;
+        text-align: left;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 38px;
+        font-family: 'Baumans', cursive;
+        font-weight: bold;
+}
+
+
+/* Button box  */
+
+.button{
+    display: flex;
+    border-radius: 4px;
+    width: 48%;
+    height: 10vh;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    position: relative;
+    top: 16px;
+    color: whitesmoke;
+}
+
+.button:hover .hover-text {
+    display: inline;
+}
+
+.button:hover .default-text {
+    display: none;
+}
+
+.button .hover-text {
+    display: none;
+}
+
+
+/* updation text in box  */
+
+.Updation{
+    width: 50%;
+    height: 16vh;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    background-color: #9140B5;
+    color: #F25CFE;
+    /* opacity: 0.23; */
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.upText {
+    position: relative;
+    left: 25px;
+    top: 30px;
+    /* color: #F25CFE; */
+    font-size: 18px;
+    opacity: 1;
+}
+
+.align{
+    display: flex;
+}
+  
+  /* Image box  */
+
+.box-b{
+    width: 40%;
+    height: 45vh;
+    position: relative;
+    bottom: 212px;
+}
+
+.box-b img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+  
+  /* media query */
+
+  @media screen and (max-width:1023px) and (min-width:768px){
+    .span-1{
+        margin-left: 8%;
+        padding: 20px;
+    }
+    
+    .span-1 img {
+        width: 250px;
+    }
+    
+    
+    
+    
+    .span-2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
         
     }
-
-    .Box-2{
-        position: absolute;
-        top: 400px;
-    }
-    .Box-R{
-        width: 480px;
-        height: 85px;
-        margin-left: -3px;
-        bottom: 86px;
-    }
-
-    .Box-R-1{
-        width: 417px;
-        height: 102px;
-        margin-left: 27px;
-        margin-top: 25px;
-    }
-
-    .Box-R-2{
-        width: 357px;
-        height: 108px;
-        margin-left: 52px;
-        margin-top: 15px;
-    }
-
-    .contain-1{
-        margin-left: 12px;
-    }
-
-    .contain-2{
-        margin-left: 12px;
-    }
-
-    .contain-3{
-        margin-left: 12px;
-    }
-
-    #select-1{
-        width: 212px;
-        height: 40px;
-    }
-
-    .Box-PR{
+    
+    .box-1{
+        display: flex;
+        border-radius: 10px;
+        flex-direction: row;
+        background-color: aliceblue;
+        gap: 50px;
+        width: 90%;
+        height: 500px;
         position: relative;
-        left: 24px;
-        margin-top: 15px;
+        top: 413px;
+    }
+    
+    
+    
+    .setBox1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .setBox1 img {
+        width: 5vh;
+        height: 5vh;
     }
 
     .img-z{
-        width: 50px;
-        height: 50px;
+        width: 100%;
     }
+    
+    
+    
+    .setBox2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .setBox2 p {
+        font-size: 24px;
+    }
+    
+    .setBox3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        width: 50%;
+    }
+    
+    .setBox3 select {
+        position:absolute;
 
-    .Display-Time p {
-        color: #3D087B;
-        font-size: 12px;
+        width: 90%;
     
+        height: 4vh;
     }
-    .clock-adj {
-        display: flex;
-        justify-content: center;
-        font-size: 22px;
+    
+    
+    
+    
+    
+    /* span -2  */
+    
+    
+    
+    .box-2{
+        width: 90%;
+        height: 350px;
         position: absolute;
-        top: 24px;
-        padding: 0px;
-        margin-left: 11px;
-        color: #8A11BF;
+        top: 116px;
     }
     
-    .clock-name {
-        display: flex;
-        justify-content: center;
+    .ckl1 {
+        width: 95%;
+        height: 120px;
+        background-color: aliceblue;
         position: absolute;
-        top: 53px;
-        font-size: 16px;
-        margin-left: 7px;
-        color: #8A11BF;
-    }
-    
-    
-    .Display-Time{
+        border-radius: 10px;
+        opacity: 1;
+        z-index: 5;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-     
+        padding: 20px;
+    }
+    
+    
+    
+    .ckl1 p {
+        color: #3D087B;
+        font-size: 24px;
+    }
+    
+    .clock-adj{
+        display: flex;
+        justify-content: center;
+        font-size: 28px;
+        position: absolute;
+        top: 42px;
+        padding: 0px;
+        margin-left: 16px;
+        font-weight: bold;
+        color: #8A11BF;
+    }
+    
+    .clock-name{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 88px;
+        font-size: 26px;
+        margin-left: 10px;
+        font-weight: bold;
+        color: #8A11BF;
+    }
+    
+    .ckl2 {
+        width: 80%;
+        height: 12vh;
+        background-color: aliceblue;
+        position: absolute;
+        left: 60px;
+        top: 57px;
+        border-radius: 10px;
+        opacity: 0.71;
+        /* width: 379vh */
+        z-index: 4;
+    }
+    
+    .ckl3 {
+        width: 70%;
+        height: 12vh;
+        background-color: aliceblue;
+        position: absolute;
+        left: 90px;
+        top: 73px;
+        border-radius: 10px;
+        opacity: 0.22;
+        z-index: 3;
+    }
+    
+    .ckl4 {
+        width: 98%;
+        height: 140px;
+        background-color: aliceblue;
+        position: absolute;
+        /* left: 60px; */
+        top: 254px;
+        border-radius: 10px;
+        opacity: 1;
     }
     
     .text-1 {
@@ -364,165 +496,451 @@ body{
         text-align: left;
         align-items: center;
         padding-left: 20px;
-        font-size: 12px;
-        font-family: 'Baumans', cursive;
-        opacity: 1;
-        position: relative;
-        bottom: 200px;
-    }
-
-    #imgs{
-        width: 473px;
-        height: 320px;
-        position: absolute;
-        right: -270px;
-        top: 375px;
-    }
-
-    /* Good morning!! wake up !! */
-    .Box-3{
-        width: 482px;
-        height: 100px;
-        background-color: #9140B5;
-        border: 1px solid #EDEDED;
-        border-radius: 10px;
-        position: absolute;
-        top: 1157px;
-        color: #FFFFFF;
-        text-align: left;
-        align-items: center;
-        padding-left: 20px;
-        font-size: 18px;
+        font-size: 34px;
         font-family: 'Baumans', cursive;
         opacity: 1;
         font-weight: bold;
+        /* position */
+        position: relative;
+        bottom: 200px;
     }
-
-    /* Set Alarm */
-
-    .Box-4{
-        width: 240px;
-        height: 78px;
-        position: absolute;
-        top: 1212px;
+    
+    
+    /* span - 3 */
+    
+    
+    .span-3{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: linear-gradient( to right, #6E54EC, #CB52F8, #F1A7C5);
-        color: whitesmoke;
-        
+        position: relative;
+        gap: 5vh;
     }
-
-    .Box-5{
-        width: 223px;
-        height: 117px;
-        flex-direction: column;
+    
+    .box-a{
+        width: 90%;
+        height: 30vh;
         position: absolute;
-        top: 1236px;
-        margin-bottom: 20px;
-        left: 255px;
-        bottom: 50px;
-        background-color: #9140B5;
-        padding: 10px;
-        opacity: 1;
+        top: 1062px;
     }
-    .Box-5 p {
+    
+    
+    /* text updation acording to set alarm */
+    
+    .text1{
+        display: flex;
+        width: 99%;
+        height: 12vh;
+        background-color: #9140B5;
+        border-radius: 10px;
+        /* border: 1px solid #EDEDED; */
+            
+    }
+    
+    #msg {
+        display: flex;
+        justify-content: center;
+            color: white;
+            text-align: left;
+            align-items: center;
+            padding-left: 20px;
+            font-size: 38px;
+            font-family: 'Baumans', cursive;
+            font-weight: bold;
+    }
+    
+    
+    /* Button box  */
+    
+    .button{
+        display: flex;
+        border-radius: 4px;
+        width: 48%;
+        height: 10vh;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+        position: relative;
+        top: 16px;
+        color: whitesmoke;
+    }
+    
+    .button:hover .hover-text {
+        display: inline;
+    }
+    
+    .button:hover .default-text {
+        display: none;
+    }
+    
+    .button .hover-text {
+        display: none;
+    }
+    
+    
+    /* updation text in box  */
+    
+    .Updation{
+        width: 50%;
+        height: 16vh;
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        border: 1px solid var(--unnamed-color-ededed);
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        /* border: 1px solid #EDEDED; */
+        border-radius: 10px;
+        background-color: #9140B5;
         color: #F25CFE;
+        /* opacity: 0.23; */
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .upText {
+        position: relative;
+        left: 25px;
+        top: 30px;
+        /* color: #F25CFE; */
         font-size: 18px;
         opacity: 1;
     }
-}
+    
+    .align{
+        display: flex;
+    }
+      
+      /* Image box  */
+    
+    .box-b{
+        width: 90%;
+        height: 555px;
+        position: absolute;
+        top: -13vh;
+    }
+    
+    .box-b img {
+        position: relative;
+        top: 611px;
+        width: 100%;
+        height: 100%;
+    }
+  }
+  
+  /* For mobile view media query  */
 
-
-        /* Iphone SE */
-@media screen and (max-width: 375px){
-    #imgs { width: 473px;
-    height: 320px;
-    position: absolute;
-    right: -308px;
-    top: 375px;
+  @media screen and (max-width:767px) and (min-width:280px){
+    .span-1{
+        margin-left: 8%;
+        padding: 20px;
+    }
+    
+    .span-1 img {
+        width: 250px;
+    }
+    
+    
+    
+    
+    .span-2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        gap: 5vh;
+        
+    }
+    
+    .box-1{
+        /* display: flex; */
+        border-radius: 10px;
+        /* flex-direction: row; */
+        background-color: aliceblue;
+        gap: 50px;
+        width: 91%;
+        height: 350px;
+        position: absolute;
+        top: 317px;
+    }
+    
+    
+    
+    .setBox1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .setBox1 img {
+        width: 5vh;
+        height: 5vh;
+    }
+    
+    
+    
+    .setBox2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .setBox2 p {
+        font-size: 18px;
+    }
+    
+    .setBox3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        width: 50%;
+    }
+    
+    .setBox3 select {
+        position: absolute;
+    width: 90%;
+    height: 4vh;
+    }
+    
+    
+    
+    
+    
+    /* span -2  */
+    
+    
+    
+    .box-2{
+        width: 90%;
+        height: 350px;
+        position: absolute;
+        top: 0px;
+    }
+    
+    .ckl1 {
+        width: 90%;
+        height: 80px;
+        background-color: aliceblue;
+        position: absolute;
+        border-radius: 10px;
+        opacity: 1;
+        z-index: 5;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    
+    
+    .ckl1 p {
+        color: #3D087B;
+        font-size: 12px;
+    }
+    
+    .clock-adj{
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        position: absolute;
+        top: 28px;
+        padding: 0px;
+        margin-left: 16px;
+        font-weight: bold;
+        color: #8A11BF;
     }
 
-    .Box-5{
-        width: 223px;
-        height: 140px;
-        flex-direction: column;
+    .img-z{
+        width: 100%;
+    }
+    
+    .clock-name{
+        display: flex;
+        justify-content: center;
         position: absolute;
-        top: 1236px;
-        margin-bottom: 20px;
-        left: 255px;
-        bottom: 50px;
-        background-color: #9140B5;
-        padding: 10px;
+        top: 64px;
+        font-size: 18px;
+        margin-left: 11px;
+        font-weight: bold;
+        color: #8A11BF;
+    }
+    
+    .ckl2 {
+        width: 80%;
+        height: 85px;
+        background-color: aliceblue;
+        position: absolute;
+        left: 38px;
+        top: 57px;
+        border-radius: 10px;
+        opacity: 0.71;
+        /* width: 379vh */
+        z-index: 4;
+    }
+    
+    .ckl3 {
+        width: 70%;
+        height: 85px;
+        background-color: aliceblue;
+        position: absolute;
+        left: 55px;
+        top: 73px;
+        border-radius: 10px;
+        opacity: 0.22;
+        z-index: 3;
+    }
+    
+    .ckl4 {
+        width: 98%;
+        height: 110px;
+        background-color: aliceblue;
+        position: absolute;
+        right: -6px;
+        top: 175px;
+        border-radius: 10px;
         opacity: 1;
     }
-
-    .clock-adj {
+    
+    .text-1 {
         display: flex;
+        color: #8E53F0; 
         justify-content: center;
-        font-size: 22px;
-        position: absolute;
-        top: 24px;
-        padding: 0px;
-        margin-left: 11px;
-        color: #8A11BF;
+        text-align: left;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 28px;
+        font-family: 'Baumans', cursive;
+        opacity: 1;
+        font-weight: bold;
+        /* position */
     }
     
-    .clock-name {
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        top: 53px;
-        font-size: 16px;
-        margin-left: 7px;
-        color: #8A11BF;
-    }
-
     
-}
-
-
-        /* iphone 12pro */
-@media screen and (max-width: 390px){
-    #imgs { width: 473px;
-    height: 320px;
-    position: absolute;
-    right: -293px;
-    top: 375px;
-    }
-
-    .Box-5{
-        width: 223px;
-        height: 140px;
+    /* span - 3 */
+    
+    
+    .span-3{
+        display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        gap: 5vh;
+    }
+    
+    .box-a{
+        width: 90%;
+        height: 30vh;
         position: absolute;
-        top: 1236px;
-        margin-bottom: 20px;
-        left: 255px;
-        bottom: 50px;
+        top: 1028px;
+    }
+    
+    
+    /* text updation acording to set alarm */
+    
+    .text1{
+        display: flex;
+        width: 100%;
+        height: 12vh;
         background-color: #9140B5;
+        border-radius: 10px;
+        /* border: 1px solid #EDEDED; */
+            
+    }
+    
+    #msg {
+        display: flex;
+        justify-content: center;
+            color: white;
+            text-align: left;
+            align-items: center;
+            padding-left: 20px;
+            font-size: 28px;
+            font-family: 'Baumans', cursive;
+            font-weight: bold;
+    }
+    
+    
+    /* Button box  */
+    
+    .button{
+        display: flex;
+        border-radius: 4px;
+        width: 48%;
+        height: 10vh;
+        font-size: 18px;
+        justify-content: center;
+        align-items: center;
+        background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+        position: relative;
+        top: 16px;
+        color: whitesmoke;
+    }
+    
+    .button:hover .hover-text {
+        display: inline;
+    }
+    
+    .button:hover .default-text {
+        display: none;
+    }
+    
+    .button .hover-text {
+        display: none;
+    }
+    
+    
+    /* updation text in box  */
+    
+    .Updation{
+        /* width: 50%;
+        height: 16vh; */
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        border: 1px solid var(--unnamed-color-ededed);
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        /* border: 1px solid #EDEDED; */
+        border-radius: 10px;
+        background-color: #9140B5;
+        color: #F25CFE;
+        /* opacity: 0.23; */
+        /* position: relative;
+        top: 10px;
+        left: 6px; */
         padding: 10px;
+    }
+    
+    .upText {
+        position: relative;
+        left: 25px;
+        top: 30px;
+        /* color: #F25CFE; */
+        font-size: 10px;
         opacity: 1;
     }
-
-    .clock-adj {
+    
+    .align{
         display: flex;
-        justify-content: center;
-        font-size: 22px;
+    }
+      
+      /* Image box  */
+    
+    .box-b{
+        width: 90%;
+        height: 320px;
         position: absolute;
-        top: 24px;
-        padding: 0px;
-        margin-left: 11px;
-        color: #8A11BF;
+        top: 78px;
     }
     
-    .clock-name {
-        display: flex;
-        justify-content: center;
+    .box-b img {
         position: absolute;
-        top: 53px;
-        font-size: 16px;
-        margin-left: 7px;
-        color: #8A11BF;
+        top: 611px;
+        width: 100%;
+        height: 100%;
     }
-
-}
+  }
+  
