@@ -5,7 +5,7 @@ function clockStart(){
     let AMPM = '';
     let time = new Date();
     let hrs = time.getHours();
-    let mins = time.getMinutes();
+    let mins = time.getMinutes(); 
     let secs = time.getSeconds();
     
     if (hrs <= 10 && hrs >= 4){
@@ -14,7 +14,7 @@ function clockStart(){
         displayMassege[0].innerHTML = "LET'S HAVE SOME LUNCH !!"
     }else if (hrs > 16 && hrs <= 20){
         displayMassege[0].innerHTML = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!"
-    }else if(hrs >20 || hrs <=4){
+    }else if(hrs >=20 && hrs <=4){
         displayMassege[0].innerHTML = "CLOSE YOUR EYES AND GO TO SLEEP"
     }
 
@@ -44,7 +44,7 @@ setInterval(() =>{
 
 
 let selectAlarm = document.querySelectorAll('select');
-let updateImage = document.querySelector('.wake_up')
+// let updateImage = document.querySelector('.wake_up')
 let updateData = document.getElementById('upText')
 function callFunction (){
     let time = new Date();
