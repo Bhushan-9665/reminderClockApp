@@ -871,8 +871,8 @@ body{
     .button{
         display: flex;
         border-radius: 4px;
-        width: 48%;
-        height: 10vh;
+        width: 46%;
+        height: 75px;
         font-size: 18px;
         justify-content: center;
         align-items: center;
@@ -898,8 +898,8 @@ body{
     /* updation text in box  */
     
     .Updation{
-        /* width: 50%;
-        height: 16vh; */
+        width: 50%;
+        height: 114px;
         background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
         border: 1px solid var(--unnamed-color-ededed);
         background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -908,10 +908,10 @@ body{
         background-color: #9140B5;
         color: #F25CFE;
         /* opacity: 0.23; */
-        /* position: relative;
-        top: 10px;
-        left: 6px; */
-        padding: 10px;
+        position: relative;
+        top: 14px;
+        left: 7px;
+        /* padding: 10px; */
     }
     
     .upText {
